@@ -8,7 +8,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 
-    margin-top: 4%;
+
+    
     
 }
 .content {
@@ -19,6 +20,9 @@
 
   justify-content: space-evenly;
   padding-bottom: 5%;
+
+ 
+
 }
 
 .titulo-home {
@@ -74,8 +78,11 @@ p.mensagem {
 
 }
 
-.imagem-home{
-    border-radius: 20px;
-    width: 675px;
-    
+
+
+@media screen and (min-device-width: 480px) and (max-device-width: 800px){
+    .content{
+        
+        flex-wrap: wrap;
+    }
 }
