@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 
-    margin-top: 2%;
+    margin-top: 4%;
     
 }
 .content {
@@ -24,7 +24,7 @@
 .titulo-home {
   font-size: 1.3rem;
   padding-bottom: 5%;
-  width: 500px;
+  width: 50%;
 }
 
 .texto-e-btn{
