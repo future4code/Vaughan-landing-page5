@@ -61,11 +61,22 @@ border-radius: 20px;
   .content{
       flex-wrap: wrap;
   }
+  footer{
+    grid-template-columns: 1fr;
+  }
+  .imagem-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px){
   .content{
       flex-wrap: wrap;
 
+  }
+  footer{
+    grid-template-columns: 1fr;
   }
 }
