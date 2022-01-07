@@ -1,9 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-
-  color: #2f2f2f;
-
+  color: #2F2F2F;
   font-family: "Roboto", sans-serif;
 }
 a {
@@ -17,23 +15,23 @@ a:hover {
 /* #logo{
     font-size: ;
 } */
+
 /*Aqui nao precisa ter */
 /* #logo img {
+=======
+#logo img {
+>>>>>>> 74c2f99c8583ccaabc7fc8f69d050eaf40d12a0f
   width: 50px;
   height: 50px;
 } */
 header {
   box-sizing: border-box;
   height: 150px;
-  background-color: #e7e7e7;
+  background-color: #E7E7E7;
   color: white;
-
   width: 100%;
   grid-column: 1/-1;
-
-
 }
-
 nav{
     width: 100%;
     position: fixed;
@@ -42,21 +40,18 @@ nav{
     align-items: center;
     justify-content: space-around;
     top: 0;
-    background-color: #c59174;
-    
-}
 
+
+    background-color: #EDC4AD;
+
+}
 body{
-   
     min-height: 100vh;
     display: grid;
-
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-   
     row-gap: 4%;
 }
-
 #logo img {
   border-radius: 50%;
   width: 130px;
@@ -67,14 +62,9 @@ body{
   display: flex;
   list-style: none;
   gap: 1rem;
-
- 
 }
-
 #menu li {
     color: white;
     font-size: 1.5rem;
     margin: 50px;
-
 }
-
