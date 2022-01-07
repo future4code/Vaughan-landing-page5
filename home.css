@@ -55,6 +55,48 @@ width: 100%;
 border-radius: 20px;
 }
 
+.rodape-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: bisque;
+}
+
+.rodape-2 img {
+  position: relative;
+  margin-left: 100vh;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+}
+
+.icones img {
+  position: relative;
+  bottom: 20px;
+  margin-right: 120px;
+  width: 20px;
+  height: 20px;
+}
+
+.rodape ul {
+  list-style: none;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+}
+
 
 @media screen and (min-device-width: 480px) and (max-device-width: 800px){
   .content{
