@@ -1,30 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="contato.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-      
+
         <nav>
-  <a id="logo" href="index.html"><img src="img/4food.png"></a>
+            <a id="logo" href="index.html"><img src="img/4food.png"></a>
 
             <ul id="menu">
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="produto.html">Produto</a></li>
                 <li><a href="semana.html">Compra Semanal</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                
+
             </ul>
 
         </nav>
     </header>
 
-    <a href="https://landing.shopper.com.br/" target="_blenk"> <h2>Aqui é o contato</h2></a>
+    <main class="container">
+        <div class="bg-contato">
+            <div class="frase-contato">
+                <h1 class="titulo-contato">ENTRE EM CONTATO CONOSCO</h1>
+                <p class="subtitulo-contato">Tire todas as suas dúvidas ou envie suas sugestões para nossa equipe.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="contato-row">
+        <div class="container-direita">
+            <h2 class="titulo-contato-msg">ENVIE SUA MENSAGEM</h2>
+            <p class="subtitulo-contato-msg">Entre em contato com a equipe 4Ffood.com.br através do nosso e-mail
+                suporte@4food.com.br ou preenchendo o formulário de contato ao lado.</p>
+        </div>
+
+        <div class="container-esquerda">
+            <h2 class="titulo-contato-msg">FORMULÁRIO DE MENSAGENS ONLINE</h2>
+
+            <form action="#">
+                <div class="nome-email">
+                    <div>
+                        <label class="label-contato" for="name">Nome <span class="color-red">*</span></label>
+                        <input class="form-contato" type="text" placeholder="Nome">
+                    </div>
+
+                    <div>
+                        <label class="label-contato" for="email">Email <span class="color-red">*</span></label>
+                        <input class="form-contato" type="text" placeholder="Email">
+                    </div>
+
+                    <div>
+                        <label class="label-contato" for="mensagem">Mensagem <span class="color-red">*</span></label>
+                        <textarea name="" id="msg" rows="100" placeholder="Digite seu texto aqui"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="" id="submit-contato">
+                    </div>
+
+                </div>
+            </form>
+
+
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="imagem-rodape">
+            <img src="img/4food.png" alt="Imagem da Logo">
+        
+        
+        </div>
+        
+        
+        <div class="icones">
+            <p>Redes Socias</p>
+            
+            <a href="https://www.facebook.com/" target="_blenk">
+                <img src="img/facebook-logo.png" alt="icone facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="img/instagram-icone-icon-1.png" alt="icone instagram">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="img/linkedin_logo_icon_189225.png" alt="icone linkedin">
+            </a>
+        </div> 
+            <div class="lista-column">
+                <p>Sobre Nós</p>
+        <ul class="lista-sobre-nos">
+                <li><a href="nosso_time.html">Trabalhe Conosco</a></li>
+                <li><a href="trablhe_conosco.html">Nosso time</a></li>
+                <li><a href="faq.html">FAQ/Perguntas Frequentes</a></li>
+                <li><a href="onde_estamos.html">Onde estamos</a></li>
+                
+            </ul>
+        </div>
+        
+        </footer>
+
+
+
     
+
 </body>
+
 </html>
