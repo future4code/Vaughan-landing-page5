@@ -32,7 +32,11 @@ padding-bottom: 5%;
 font-size: 1.5rem;
 }
 .btn-continuar-loja {
+
+/* background-color: #52B039; */
+
 background-color: #d77d00;
+
 border: none;
 width: 250px;
 font-size: 1.2rem;
@@ -42,6 +46,7 @@ border-radius: 30px;
 color: #FFFFFF;
 }
 .btn-continuar-loja:hover {
+
 background-color: #a15f02;
 }
 
