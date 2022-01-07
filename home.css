@@ -1,52 +1,65 @@
-#container {
-    margin-top: 2%;
-    display: flex;
-  
-    /* Talvez mude o colum gap no body depois no final*/
-    column-gap: 100px;
-    
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-  
-    width: 100%;
+#container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.content {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+padding-bottom: 5%;
+}
+.titulo-home {
+font-size: 1.3rem;
+padding-bottom: 5%;
+width: 50%;
+}
+.texto-e-btn{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.mensagem-home {
+font-size: 3rem;
+padding-bottom: 5%;
+}
+p.mensagem {
+padding-bottom: 5%;
+font-size: 1.5rem;
+}
+.btn-continuar-loja {
+background-color: #d77d00;
+border: none;
+width: 250px;
+font-size: 1.2rem;
+font-weight: 700;
+padding: 15px 15px;
+border-radius: 30px;
+color: #FFFFFF;
+}
+.btn-continuar-loja:hover {
+background-color: #a15f02;
+}
+.img-home {
+height: 450px;
+width: 100%;
+border-radius: 20px;
+}
+
+
+@media screen and (min-device-width: 480px) and (max-device-width: 800px){
+  .content{
+      flex-wrap: wrap;
   }
-  
-  .titulo-saudacao{
-     font-size: 1.3rem;
-     padding-bottom: 5%;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .content{
+      flex-wrap: wrap;
+
   }
-  
-  .mensagem-home{
-      font-size: 3rem;
-      padding-bottom: 5%;
-  
-  }
-  
-  p.mensagem{
-      padding-bottom: 5%;
-      font-size: 1.5rem;
-  }
-  
-  .btn-continuar-loja {
-    background-color: #52b039;
-    border:none;
-  
-    width: 250px;
-    font-size: 1.2rem;
-    font-weight: 700;
-  
-    padding: 15px 15px;
-    border-radius: 30px;
-  
-    color: #e7e7e7;
-  }
-  
-  .btn-continuar-loja:hover{
-      background-color: #499b32;
-  }
-  
-  .imagem-mulher-home {
-    border-radius: 20px;
-  }
-  
+}
