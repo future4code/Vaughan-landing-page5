@@ -109,6 +109,8 @@ main {
   width: 100%;
   height: 200px;
   resize: none;
+  font-size: 1.8rem;
+  padding: 12px;
 }
 
 #submit-contato {
@@ -128,6 +130,7 @@ main {
 
 input {
   padding: 12px;
+  font-size: 1.8rem;
 }
 
 ::-webkit-input-placeholder {
