@@ -41,11 +41,15 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  column-gap: 5%;
+  grid-template-rows: 1fr;
+  margin: 2%;
   justify-items: center;
   justify-content: center;
   height: 100%;
   margin-bottom: 15%;
+
+  min-height: 100vh;
 }
 
 .container-direita {
@@ -115,11 +119,31 @@ input {
   }
 
 body {
-  justify-items: center;
+ /* justify-items: center;*/
 
-  grid-template-rows: 150px 1fr;
+  grid-template-rows: 150px 500px 1fr 100%;
 
  
+}
+
+footer{
+  bottom: 0;
+  width: 100%;
+  
+  overflow: hidden;
+  position: fixed;
+}
+
+.imagem-rodape{
+  width: 100%;
+}
+
+.icones{
+  width: 100%;
+}
+
+.lista-column{
+  width: 100%;
 }
 @media screen and (min-device-width: 480px) and (max-device-width: 800px){
   .contato-row{
