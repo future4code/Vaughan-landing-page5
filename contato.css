@@ -121,7 +121,7 @@ input {
 body {
  /* justify-items: center;*/
 
-  grid-template-rows: 150px 500px 1fr 100%;
+  grid-template-rows: 150px 500px 1fr 150px;
 
  
 }
@@ -130,8 +130,8 @@ footer{
   bottom: 0;
   width: 100%;
   
-  overflow: hidden;
-  position: fixed;
+ 
+ 
 }
 
 .imagem-rodape{
@@ -149,9 +149,7 @@ footer{
   .contato-row{
     grid-template-columns: 1fr;
   }
-  footer{
-    grid-template-columns: 1fr;
-  }
+  
   .imagem-rodape{
     display: flex;
     align-items: center;
@@ -164,7 +162,5 @@ footer{
     grid-template-columns: 1fr;
   }
 
-  footer{
-    grid-template-columns: 1fr;
-  }
+
 }
