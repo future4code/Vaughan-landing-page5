@@ -49,11 +49,11 @@
 }
 
 .container-direita {
-  width: 50%;
+  width: 600px;
 }
 
 .container-direita {
-  width: 50%;
+  width: 600px;
 }
 
 .titulo-contato-msg {
@@ -120,4 +120,27 @@ body {
   grid-template-rows: 150px 1fr;
 
  
+}
+@media screen and (min-device-width: 480px) and (max-device-width: 800px){
+  .contato-row{
+    grid-template-columns: 1fr;
+  }
+  footer{
+    grid-template-columns: 1fr;
+  }
+  .imagem-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+  .contato-row{
+    grid-template-columns: 1fr;
+  }
+
+  footer{
+    grid-template-columns: 1fr;
+  }
 }
