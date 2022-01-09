@@ -1,6 +1,6 @@
 # landing-page-template
 
-# Surge  [Site Surge](stormy-pot.surge.sh)
+# Surge  [Site Surge](available-things.surge.sh)
 
 # HOME
 
