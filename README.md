@@ -1,6 +1,6 @@
 # landing-page-template
 
-# Surge  [Site Surge](high-pitched-attraction.surge.sh)
+# Surge  high-pitched-attraction.surge.sh
 
 # HOME
 
